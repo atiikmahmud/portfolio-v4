@@ -53,6 +53,9 @@ main {
     color: #c7c7c7;
   }
 }
+.block-title {
+  color: #91c854;
+}
 
 @media (max-width: 575.98px) {
   .right-side-content {
