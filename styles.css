@@ -7,7 +7,7 @@ body {
 main {
   color: #c7c7c7;
 }
-.blank-section{
+.blank-section {
   height: 300px;
 }
 .section-gap {
@@ -37,7 +37,6 @@ main {
   margin-left: 5px;
 }
 .end-brace {
-
 }
 .right-side-content {
   margin: 30px 0 30px 70px;
@@ -53,5 +52,11 @@ main {
   a {
     text-decoration: none;
     color: #c7c7c7;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .right-side-content {
+    margin: 30px 0 30px 30px;
   }
 }
