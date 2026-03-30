@@ -3,20 +3,81 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Atik Mahmud's Portfolio</title>
+
+        <!-- Primary Meta Tags -->
+        <title>Atik Mahmud | Web Applications Developer Portfolio</title>
+        <meta name="title"
+            content="Atik Mahmud | Web Applications Developer Portfolio">
+        <meta name="description"
+            content="Atik Mahmud is a Web Applications Developer with 4+ years of experience in building scalable, user-focused solutions using React, Laravel, and WordPress.">
+        <meta name="keywords"
+            content="Atik Mahmud, Web Developer, Portfolio, React, Laravel, PHP, WordPress, Full Stack Developer, Bangladesh">
+        <meta name="author" content="Atik Mahmud">
+        <link rel="canonical" href="https://atikmahmud.xyz/">
+
+        <!-- Open Graph / Facebook -->
+        <meta property="og:type" content="website">
+        <meta property="og:url" content="https://atikmahmud.xyz/">
+        <meta property="og:title"
+            content="Atik Mahmud | Web Applications Developer Portfolio">
+        <meta property="og:description"
+            content="Passionate about clean code and intuitive design, building impactful digital products.">
+        <meta property="og:image"
+            content="https://atikmahmud.xyz/assets/social-share.png">
+
+        <!-- Twitter -->
+        <meta property="twitter:card" content="summary_large_image">
+        <meta property="twitter:url" content="https://atikmahmud.xyz/">
+        <meta property="twitter:title"
+            content="Atik Mahmud | Web Applications Developer Portfolio">
+        <meta property="twitter:description"
+            content="Passionate about clean code and intuitive design, building impactful digital products.">
+        <meta property="twitter:image"
+            content="https://atikmahmud.xyz/assets/social-share.png">
+
+        <!-- Favicon -->
+        <link rel="icon" type="image/png" href="assets/favicon.png">
+        <link rel="apple-touch-icon" href="assets/favicon.png">
+
+        <!-- Bootstrap CSS -->
         <link
             href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
             rel="stylesheet"
             integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
             crossorigin="anonymous">
         <link rel="stylesheet" href="styles.css">
+
+        <!-- Structured Data (JSON-LD) -->
+        <script type="application/ld+json">
+        {
+          "@context": "https://schema.org/",
+          "@type": "Person",
+          "name": "Atik Mahmud",
+          "url": "https://atikmahmud.xyz/",
+          "image": "https://atikmahmud.xyz/assets/social-share.png",
+          "jobTitle": "Web Applications Developer",
+          "description": "I’m a Web Applications Developer with 4+ years of experience building scalable, user-focused solutions.",
+          "sameAs": [
+            "https://www.facebook.com/atiikmahmud",
+            "https://github.com/atiikmahmud",
+            "https://www.linkedin.com/in/atiikmahmud/"
+          ],
+          "knowsAbout": ["HTML5", "CSS3", "Javascript", "ReactJS", "PHP", "Laravel", "WordPress"]
+        }
+        </script>
     </head>
     <body>
+        <h1 class="visually-hidden">Atik Mahmud - Web Applications Developer
+            Portfolio</h1>
         <main>
             <div class="container">
                 <div class="row">
                     <div class="col-md-10 offset-md-1">
-                        <div class="portfolio">
+                        <section class="portfolio"
+                            aria-labelledby="main-heading">
+                            <h2 id="main-heading"
+                                class="visually-hidden">Portfolio Data
+                                Structure</h2>
                             <div class="container">
                                 <div class="protfolio-block">
                                     <div class="left-side-content">
@@ -26,7 +87,9 @@
                                     </div>
 
                                     <div class="right-side-content">
-                                        <div class="protfolio-block">
+                                        <header class="protfolio-block">
+                                            <h2 class="visually-hidden">Personal
+                                                Profile</h2>
                                             <div class="left-side-content">
                                                 <div class="start-brace"><span
                                                         class="block-title">"profile"</span><span>:</span><span>{</span></div>
@@ -95,11 +158,13 @@
                                                     </div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </header>
 
                                         <div class="section-gap"></div>
 
-                                        <div class="protfolio-block">
+                                        <section class="protfolio-block">
+                                            <h2 class="visually-hidden">Social
+                                                Media and Links</h2>
                                             <div class="left-side-content">
                                                 <div class="start-brace"><span
                                                         class="block-title">"follow_on"</span><span>:</span><span>[</span></div>
@@ -126,16 +191,16 @@
                                                             href="https://www.linkedin.com/in/atiikmahmud/">"linkedin"</a></div>
                                                 </div>
                                             </div>
-                                        </div>
+                                        </section>
 
                                         <div class="section-gap"></div>
 
-                                        <div class="data-item mb-3"><span
-                                                class="block-title">"copyright"</span><span>:</span><span>"Atik Mahmud - 2026. All Right Reserved."</span></div>
+                                        <footer class="data-item mb-3"><span
+                                                class="block-title">"copyright"</span><span>:</span><span>"Atik Mahmud - 2026. All Right Reserved."</span></footer>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </section>
                     </div>
                 </div>
             </div>
