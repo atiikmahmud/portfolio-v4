@@ -58,6 +58,9 @@ main {
 }
 
 @media (max-width: 575.98px) {
+  .portfolio {
+    font-size: 16px;
+  }
   .right-side-content {
     margin: 30px 0 30px 30px;
     width: 70%;
